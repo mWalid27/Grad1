@@ -13,7 +13,7 @@ load_dotenv()
 
 # Define the path of the file
 directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-file_path = os.path.join(directory, "data", "sampled_properties.jsonl")
+file_path = os.path.join(directory, "data", "sampled_properties_new.jsonl")
 
 # Load the data
 def load_data():
